@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-28",
+  "branch": "codex/transformer-gsnr",
+  "status": "cpu_correctness_verified_gpu_training_pending",
+  "tests": {
+    "total": 22,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 1.166
+  },
+  "previous_information_tests": 14,
+  "actual_dataset_training_runs": 0,
+  "gpu_jobs_submitted": 0,
+  "frozen_diagnostic_training_steps": 0,
+  "source_sha256": {
+    "transformer_gsnr/__init__.py": "9a9e09cd3ee335025c78ba4b464dd64982db3f61e31993d38a2d16229debfd8b",
+    "transformer_gsnr/control.py": "0a40793883c8e952624c6cd9386d49f776359e19e5ce1b71fbc09e30969a9212",
+    "transformer_gsnr/model.py": "f27f754f4d0cba555ab5274f59f65dcab28d07d99617589070dc1dc4f1b7806b",
+    "transformer_gsnr/task.py": "6ee6c6a43c1b0760508be47b085bd8cb3cfac1a389ccc3f25bfbaa9e3fff0d0f",
+    "transformer_gsnr/train.py": "946173f1f29719374e3c675741b6e2dd6634219304f8c5bc5a1ec93ffa474650",
+    "transformer_gsnr/vendor/__init__.py": "85a2ebe696901961bfc6268e7a170488f198e4eb7b6a8ada1b0d7379a92bd644",
+    "transformer_gsnr/vendor/losses.py": "09418848582cd8074d9a785d161bb4a83b6255aa32b2c26cf74c68ee7502d085",
+    "transformer_gsnr/vendor/measurement.py": "2bb23783052b440838f2c176184ee96813efe23013a4cf41deef6af1635c4d5b",
+    "transformer_gsnr/vendor/optimizer.py": "83d6733d4a817bbd1f4101def8cf013acd5daf74c4a2b4848e1b338cfa9195e8",
+    "transformer_gsnr/vendor/streams.py": "3cb4a8ee70fa9a7ab064972ee9db9cca03b2c7fe6c93a62ad66863711a123cf2"
+  },
+  "limitations": [
+    "no real CIFAR-100 accuracy results",
+    "no GPU smoke yet",
+    "no verified ViT teacher",
+    "adaptive gain-matched control not implemented",
+    "no AMP or DDP support claimed",
+    "outside existing Mutagen Alpha"
+  ]
+}

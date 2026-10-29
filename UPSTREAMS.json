@@ -1,0 +1,32 @@
+{
+  "source_repository": "../reproduction (local DeepKD Expansion)",
+  "source_commit": "b7d4846c45bef9bf8f7591b781aa06f391a3fad5",
+  "source_worktree_dirty": true,
+  "files": [
+    {
+      "source": "expansion/layerwise_gsnr/optimizer.py",
+      "destination": "transformer_gsnr/vendor/optimizer.py",
+      "sha256": "83d6733d4a817bbd1f4101def8cf013acd5daf74c4a2b4848e1b338cfa9195e8",
+      "modified": false
+    },
+    {
+      "source": "expansion/layerwise_gsnr/streams.py",
+      "destination": "transformer_gsnr/vendor/streams.py",
+      "sha256": "3cb4a8ee70fa9a7ab064972ee9db9cca03b2c7fe6c93a62ad66863711a123cf2",
+      "modified": false
+    },
+    {
+      "source": "baseline/original/losses.py",
+      "destination": "transformer_gsnr/vendor/losses.py",
+      "sha256": "09418848582cd8074d9a785d161bb4a83b6255aa32b2c26cf74c68ee7502d085",
+      "modified": false
+    },
+    {
+      "source": "expansion/imageset_gsnr/measurement.py",
+      "destination": "transformer_gsnr/vendor/measurement.py",
+      "sha256": "2bb23783052b440838f2c176184ee96813efe23013a4cf41deef6af1635c4d5b",
+      "modified": false
+    }
+  ],
+  "note": "Hash-identical local snapshots. No new external training repository; loss math derives from original DKD/DeepKD. Snapshot hashes, not Git HEAD alone, identify local untracked code."
+}

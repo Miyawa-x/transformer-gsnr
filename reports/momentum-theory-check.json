@@ -1,0 +1,60 @@
+{
+  "scope": "synthetic periodic gradient replay; no student training",
+  "rows": [
+    {
+      "momentum": 0.5,
+      "order": "alternating",
+      "input_population_gsnr": 1.0,
+      "buffer_population_gsnr": 8.999999999999996,
+      "buffer_noise": 0.4444444444444446,
+      "mean_gain": 2.0,
+      "iid_formula_would_predict": 3.0
+    },
+    {
+      "momentum": 0.5,
+      "order": "blocks",
+      "input_population_gsnr": 1.0,
+      "buffer_population_gsnr": 1.0434782608695652,
+      "buffer_noise": 3.8333333333333335,
+      "mean_gain": 2.0,
+      "iid_formula_would_predict": 3.0
+    },
+    {
+      "momentum": 0.9,
+      "order": "alternating",
+      "input_population_gsnr": 1.0,
+      "buffer_population_gsnr": 360.99999999999994,
+      "buffer_noise": 0.27700831024930744,
+      "mean_gain": 9.999999999999998,
+      "iid_formula_would_predict": 19.000000000000004
+    },
+    {
+      "momentum": 0.9,
+      "order": "blocks",
+      "input_population_gsnr": 1.0,
+      "buffer_population_gsnr": 1.4191550321499447,
+      "buffer_noise": 70.46446493481778,
+      "mean_gain": 9.999999999999998,
+      "iid_formula_would_predict": 19.000000000000004
+    },
+    {
+      "momentum": 0.95,
+      "order": "alternating",
+      "input_population_gsnr": 1.0,
+      "buffer_population_gsnr": 1520.9999999999982,
+      "buffer_noise": 0.2629848783694938,
+      "mean_gain": 19.99999999999999,
+      "iid_formula_would_predict": 38.999999999999964
+    },
+    {
+      "momentum": 0.95,
+      "order": "blocks",
+      "input_population_gsnr": 1.0,
+      "buffer_population_gsnr": 2.298453250800929,
+      "buffer_noise": 174.03007864554732,
+      "mean_gain": 19.99999999999999,
+      "iid_formula_would_predict": 38.999999999999964
+    }
+  ],
+  "finding": "Equal instantaneous GSNR does not determine momentum-buffer GSNR; temporal correlation matters."
+}

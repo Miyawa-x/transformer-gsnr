@@ -1,0 +1,33 @@
+{
+  "model": {
+    "image_size": 32,
+    "patch_size": 4,
+    "classes": 100,
+    "width": 192,
+    "depth": 6,
+    "heads": 3,
+    "mlp_ratio": 4,
+    "dropout": 0.0
+  },
+  "epochs": 240,
+  "batch_size": 128,
+  "workers": 4,
+  "lr": 0.01,
+  "weight_decay": 0.0,
+  "warmup_epochs": 5,
+  "momentum": 0.9,
+  "momentum_map": {
+    "minimum": 0.5,
+    "maximum": 0.95,
+    "half_saturation": 1.0
+  },
+  "calibrate_every": 10,
+  "probe_batches": 8,
+  "probe_batch_size": 32,
+  "seed": 0,
+  "split_seed": 20261028,
+  "probe_seed": 20261028,
+  "temperature": 4.0,
+  "objective": "ce",
+  "optimizer": "adaptive"
+}

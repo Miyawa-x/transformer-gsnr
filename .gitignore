@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+outputs/
+checkpoints/
+*.egg-info/
+.DS_Store
+remote.toml
+*.pem
+*.key
